@@ -151,7 +151,7 @@ int decrypt()
 		printf("%d\n", ind[i]);
 	
 	for(int i = 0; i < (strlen(code)/6); i++)
-		printf("%c", a[ ind[i] ]);
+		printf("%c", a[ ind[j] ]);
 	
 	printf("\n");
 		printf("\n"); // Stops the output from being on the same line as the prompt
